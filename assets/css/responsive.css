@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px)  {
+    .swiper-button-prev {
+        display: none;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .clients .swiper-button-prev {
+        left: -45px;
+    }
+    
+    .clients .swiper-button-next {
+        right: -45px;
+    }
+    
+    .testimoni .swiper-button-prev {
+        left: -45px;
+    }
+    
+    .testimoni .swiper-button-next {
+        right: -45px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero-header .text-start p {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 25px 9px;
+        font-size: 12px;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+
+    .contact a {
+        font-size: 12px;
+    }
+}
